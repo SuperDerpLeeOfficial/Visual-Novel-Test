@@ -69,13 +69,9 @@ function screens() {
 		document.getElementById("background").style.background = "url('character1-2.png'), url('background.png')";
 		document.getElementById("message").style.fontStyle = "normal";
 		document.getElementById("back").disabled = false;
-	// Screen 7
-	if (response == 6) {
-		document.getElementById("character").innerHTML = "Me";
-		document.getElementById("message").innerHTML = "";
 	}
 	// End
-	if (response == 7) {response -= 1;}
+	if (response == 6) {response -= 1;}
 }
 
 startScreen();
